@@ -8,7 +8,7 @@ say () {
 }
 
 say "Cloning sota0805/init"
-# git clone git@github.com:sota0805/init.github
+git clone git@github.com:sota0805/init.github
 
 say "? Would you like to create repositroy on Github? (y/n)"
 read responce
@@ -26,7 +26,13 @@ fi
 # TODO: Check whether there is hub command or not
 if [$responce -eq "y"]
 then
-   cd init
-#  git init
-#  hub create
+   cd init          && \
+   git init         && \
+   hub create
 fi
+
+rm README.md        && \
+rm LICENSE.md       && \
+rm init
+
+say "Successfully, my mimum project."
