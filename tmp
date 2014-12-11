@@ -2,6 +2,7 @@
 
 
   rm -rf .git/            && \
+  rm .githubs-todos       && \
   rm README.md            && \
   rm License.md           && \
   rm tmp                  && \
