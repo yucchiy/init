@@ -1,10 +1,14 @@
 #!/bin/sh
 
+RCol='\e[0m'    # Text Reset
+Gre='\e[0;32m';
+BGre='\e[1;32m';
+
 say () {
   printf "$1\n"
 }
 
-say "Clean project"
+say "${Gre}Clean project"
 
 say "Delete .git/"         && \
 rm -rf .git/               && \
@@ -19,5 +23,5 @@ rm tmp                     && \
 say "Delete init.shell"    && \
 rm init
 
-say "Sucessfully clean"
+say "${BGre}Sucessfully clean"
 
