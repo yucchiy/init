@@ -5,6 +5,6 @@ rm     README.md       && \
 rm     License.md      && \
 rm     init
 
-printf('Sucessfullt installed')
+printf 'Sucessfullt installed'
 
 
