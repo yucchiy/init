@@ -8,7 +8,7 @@ say () {
   printf "$1\n"
 }
 
-say "${Gre}Clean project"
+say "${Gre}Clean project${Gre}"
 
 say "Delete .git/"         && \
 rm -rf .git/               && \
@@ -21,7 +21,9 @@ rm License.md              && \
 say "Delete tmp.shell"     && \
 rm tmp                     && \
 say "Delete init.shell"    && \
-rm init
+rm init                    && \
+
+say ${PWD##*/}
 
 say "${BGre}Sucessfully clean"
 
