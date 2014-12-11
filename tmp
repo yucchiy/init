@@ -1,10 +1,9 @@
 #!/bin/sh
 
-rm -rf .git/           && \ 
-rm     README.md       && \
-rm     License.md      && \
-rm     init
 
-printf 'Sucessfullt installed'
-
+  rm -rf .git/            && \
+  rm README.md            && \
+  rm License.md           && \
+  rm tmp                  && \
+  rm init
 
