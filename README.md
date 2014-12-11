@@ -3,7 +3,13 @@ $ init
 
 Minimum items for repositories. It is just for me now. This repositry include minimum items I always used my OSS projects.
 
-## TODO
+## Usage
+
+    $ git clone git@github.com:sota0805/init.git
+    $ cd init
+    $ ./init
+
+## Todo
 
 I would like it to be a like Yomen. 
 
