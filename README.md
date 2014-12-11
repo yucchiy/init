@@ -5,9 +5,9 @@ Minimum items for repositories. It is just for me now. This repositry include mi
 
 ## Usage
 
-    $ git clone git@github.com:sota0805/init.git
-    $ cd init
-    $ ./init
+    $ git clone git@github.com:sota0805/init.git <your project name>
+    $ cd <your project name>
+    $ ./tmp
 
 ## Todo
 
