@@ -1,10 +1,23 @@
 #!/bin/sh
 
+say () {
+  printf "$1\n"
+}
 
-  rm -rf .git/            && \
-  rm .githubs-todos       && \
-  rm README.md            && \
-  rm License.md           && \
-  rm tmp                  && \
-  rm init
+say "Clean project"
+
+say "Delete .git/"         && \
+rm -rf .git/               && \
+say "Delete .github-todos" &&\
+rm .github-todos           && \
+say "Delete README.md"     && \
+rm README.md               && \
+say "Delete License.md"    && \
+rm License.md              && \
+say "Delete tmp.shell"     && \
+rm tmp                     && \
+say "Delete init.shell"    && \
+rm init
+
+say "Sucessfully clean"
 
