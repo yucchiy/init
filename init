@@ -13,7 +13,7 @@ git clone git@github.com:sota0805/init.github
 say "? Would you like to create repositroy on Github? (y/n)"
 read responce
 
-if [$respnce -ne "y"] or [$responce -ne "n"]
+if [$responce -ne "y"] or [$responce -ne "n"]
 then
   say "Please answer y or n"
 fi
